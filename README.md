@@ -1,4 +1,4 @@
-# debug
+# @allex/debug
 [![Build Status](https://travis-ci.org/visionmedia/debug.svg?branch=master)](https://travis-ci.org/visionmedia/debug)  [![Coverage Status](https://coveralls.io/repos/github/visionmedia/debug/badge.svg?branch=master)](https://coveralls.io/github/visionmedia/debug?branch=master)  [![Slack](https://visionmedia-community-slackin.now.sh/badge.svg)](https://visionmedia-community-slackin.now.sh/) [![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/debug/sponsors/badge.svg)](#sponsors)
 
@@ -10,7 +10,7 @@ technique. Works in Node.js and web browsers.
 ## Installation
 
 ```bash
-$ npm install debug
+$ npm install @allex/debug
 ```
 
 ## Usage
