@@ -70,6 +70,31 @@ Here are some examples:
 <img width="647" alt="screen shot 2017-08-08 at 12 53 38 pm" src="https://user-images.githubusercontent.com/71256/29091700-a62a6888-7c38-11e7-800b-db911291ca2b.png">
 <img width="647" alt="screen shot 2017-08-08 at 12 53 25 pm" src="https://user-images.githubusercontent.com/71256/29091701-a62ea114-7c38-11e7-826a-2692bedca740.png">
 
+### Use for Rollup ecosystem
+
+```js
+import resolveId from 'rollup-plugin-resolve-id'
+
+// rollup.config.js
+export default {
+  input: 'src/main.js',
+  output: {
+    file: 'dist/bundle.js',
+    format: 'umd'
+  },
+  plugins: [
+    // ...
+    resolveId({
+      extensions: ['.js', '.ts'],
+      alias: {
+        'debug': 'debug/dist/debug.esm.js',
+      }
+    })
+  ]
+  // ...
+}
+```
+
 #### Windows command prompt notes
 
 ##### CMD
