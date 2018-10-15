@@ -17,7 +17,8 @@
     "dist/debug.min.js",
     "dist/debug.esm.js",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "index.d.ts"
   ],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
@@ -63,5 +64,6 @@
   "main": "./src/index.js",
   "browser": "./dist/debug.js",
   "unpkg": "./dist/debug.min.js",
-  "module": "./dist/debug.esm.js"
+  "module": "./dist/debug.esm.js",
+  "types": "index.d.ts"
 }
